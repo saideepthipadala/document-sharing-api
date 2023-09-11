@@ -1,22 +1,79 @@
+Your existing instructions are good, but we can improve them by providing more detailed explanations and formatting. Here's an enhanced version:
+
+---
+
 # Document Sharing Platform REST API
 
-# instructions
-1. clone this repo to your local machine, and cd into the project folder
-2. run `npm install` in terminal/cmd at root of project directory (this will download all dependencies)
-3. create a .env file with following content:
+## Instructions for Running the API Locally
 
-{
+Follow these steps to set up and run the Document Sharing Platform REST API on your local machine:
+
+### Step 1: Clone the Repository
+
+
+
+
+Change your directory to the project folder
+
+
+### Step 2: Install Dependencies
+
+Install the project dependencies by running the following command in your terminal or command prompt at the root of the project directory:
+
+```bash
+npm install
+```
+
+This command will download and install all the required dependencies for the API.
+
+### Step 3: Configure Environment Variables
+
+Create a `.env` file in the project root directory and add the following content to it. This file contains essential configuration settings for the API:
+
+```env
 PORT=5000
-URI='mongodb+srv://deepthi:Password@cluster0.qusxirt.mongodb.net/motorq'
-JWT_SECRET='verysecret'
-}
-4. start server by running command 'npm start'. Server should be up on port 5000
-5 Active link : https://motorq.onrender.com
+MONGODB_URI='mongodb+srv://your-username:your-password@cluster.mongodb.net/your-database'
+JWT_SECRET='your-secret'
+```
 
-![signup](image.png)
-![login](image-1.png)
-![get users](image-2.png)
-![create document](image-3.png)
-![get document](image-4.png)
-![del document](image-5.png)
-![get mobile numbers shared](image-6.png)
+Replace the placeholders with your specific configuration details:
+
+- `PORT`: The port on which the server will run (e.g., 5000).
+- `MONGODB_URI`: The MongoDB connection URI for your database.
+- `JWT_SECRET`: Your secret key for JWT authentication.
+
+### Step 4: Start the Server
+
+You can start the server by running the following command:
+
+```bash
+npm start
+```
+
+The server should now be up and running on the specified port (in this example, port 5000).
+
+## API Endpoints and Usage
+
+Here are some screenshots of the API endpoints in action:
+
+- **User Signup**: ![Signup](image.png)
+- **User Login**: ![Login](image-1.png)
+- **Get List of Users**: ![Get Users](image-2.png)
+- **Create Document**: ![Create Document](image-3.png)
+- **Get Document**: ![Get Document](image-4.png)
+- **Delete Document**: ![Delete Document](image-5.png)
+- **Get Mobile Numbers Shared**: ![Get Mobile Numbers Shared](image-6.png)
+
+## Next Steps
+
+You now have the Document Sharing Platform REST API running locally on your machine. You can explore and interact with the API endpoints using your preferred API testing tool or client.
+
+Feel free to modify the API's functionality or integrate it into your own project as needed.
+
+If you encounter any issues or have questions, please contact [Your Name](mailto:your.email@example.com).
+
+Enjoy using the Document Sharing Platform REST API!
+
+---
+
+This improved README provides more detailed instructions and a cleaner format for users to follow when setting up and running your API locally.
