@@ -1,5 +1,5 @@
-
 import Document from '../models/document.js';
+import Share from '../models/share.js';
 
 export const CreateDocument = async (req, res) => {
     const { name, document } = req.body;
@@ -29,7 +29,8 @@ export const DeleteDocuments = async (req, res) => {
     const { documentId } = req.params;
     const owner = req.user.id;
     try {
-        await Document.deleteOne({ _id: documentId, owner: owner });
+        const deleted = await Document.deleteOne({ _id: documentId, owner: owner });
+        const shared = await Share.deleteMany({ documentId: documentId });
         res.status(200).json({ message: "Document deleted successfully" });
     }
     catch (error) {
