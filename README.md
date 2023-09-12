@@ -52,17 +52,9 @@ npm start
 
 The server should now be up and running on the specified port (in this example, port 5000).
 
-## API Endpoints and Usage
 
-Here are some screenshots of the API endpoints in action:
 
-- **User Signup**: ![Signup](image.png)
-- **User Login**: ![Login](image-1.png)
-- **Get List of Users**: ![Get Users](image-2.png)
-- **Create Document**: ![Create Document](image-3.png)
-- **Get Document**: ![Get Document](image-4.png)
-- **Delete Document**: ![Delete Document](image-5.png)
-- **Get Mobile Numbers Shared**: ![Get Mobile Numbers Shared](image-6.png)
+
 
 ## Next Steps
 
