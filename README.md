@@ -52,28 +52,12 @@ npm start
 
 The server should now be up and running on the specified port (in this example, port 5000).
 
-## API Endpoints and Usage
 
-Here are some screenshots of the API endpoints in action:
 
-- **User Signup**: ![Signup](image.png)
-- **User Login**: ![Login](image-1.png)
-- **Get List of Users**: ![Get Users](image-2.png)
-- **Create Document**: ![Create Document](image-3.png)
-- **Get Document**: ![Get Document](image-4.png)
-- **Delete Document**: ![Delete Document](image-5.png)
-- **Get Mobile Numbers Shared**: ![Get Mobile Numbers Shared](image-6.png)
+
 
 ## Next Steps
 
 You now have the Document Sharing Platform REST API running locally on your machine. You can explore and interact with the API endpoints using your preferred API testing tool or client.
 
 Feel free to modify the API's functionality or integrate it into your own project as needed.
-
-If you encounter any issues or have questions, please contact [Your Name](mailto:your.email@example.com).
-
-Enjoy using the Document Sharing Platform REST API!
-
----
-
-This improved README provides more detailed instructions and a cleaner format for users to follow when setting up and running your API locally.
